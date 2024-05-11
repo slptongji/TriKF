@@ -14,15 +14,8 @@ Our basic environment configurations are as follows:
 - PyTorch: 1.7.0
 
 ## Usage
-You can execute our code through the following commands:
-
-### EQT dataset
-
-```
-python main.py
-```
-### EQ-EMAC dataset
-
-```
-python main_emac.py
-```
+- Download the GloVe embedding file `glove.6B.300d.txt` and put it into `/data`.
+- Download the [COMET-BART model](https://github.com/allenai/comet-atomic-2020) `pytorch_model.bin` and put it into `/data/Comet`. 
+- Execute the source code through the following commands:
+  - for EQT dataset: `python main.py`
+  - for EQ-EMAC dataset: `python main_emac.py`
